@@ -1,5 +1,3 @@
-# FIN5016_Assignment_2
-Robo-advising and algorithmic trading implementation for FIN5016.
 # FIN5016 Assignment 2: Robo-Advising & Algorithmic Trading
 
 This repository contains the completed tasks for FIN5016 – Assessment 2 at La Trobe University. The assessment explores the development of financial applications in Python using **robo-advising** and **algorithmic trading** concepts. The focus is on practical implementation and performance evaluation using real-world data.
