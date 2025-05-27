@@ -1,49 +1,57 @@
-# FIN5016 Assignment 2: Robo-Advising & Algorithmic Trading
+# FIN5016 Assignment 2: Robo-Advising and Algorithmic Trading
 
-This repository contains the completed tasks for FIN5016 – Assessment 2 at La Trobe University. The assessment explores the development of financial applications in Python using **robo-advising** and **algorithmic trading** concepts. The focus is on practical implementation and performance evaluation using real-world data.
+## Project Overview
 
-## 📁 Repository Contents
-
-| File | Description |
-|------|-------------|
-| `FIN5016_Assessment_2_Task_1.ipynb` | Implementation of a Robo-Advisor using Modern Portfolio Theory (MPT) to recommend optimal portfolios based on client risk profiles and efficient frontier visualization. |
-| `FIN5016_Assessment_2_Task_2.ipynb` | Development and backtesting of an algorithmic trading strategy (e.g., Moving Average Crossover), with performance evaluation using metrics such as Sharpe Ratio. |
----
-
-## 🧠 Task Summaries
-
-### 📊 Task 1: Robo-Advising
-- Load and clean historical stock data from the past 2 years.
-- Apply Modern Portfolio Theory to compute portfolio returns, volatility, and Sharpe Ratios.
-- Plot the **Efficient Frontier**.
-- Recommend optimal portfolios based on client risk tolerance (conservative, moderate, aggressive).
-
-### 📈 Task 2: Algorithmic Trading Strategy
-- Build and implement a trading strategy (e.g., Moving Average Crossover).
-- Backtest the strategy on historical price data.
-- Evaluate the performance using real-world financial metrics such as:
-  - Sharpe Ratio
-  - Maximum Drawdown
-  - Cumulative Returns
+This project consists of two practical FinTech applications developed using Python:  
+1. A **robo-advisory model** that uses Modern Portfolio Theory to recommend investment portfolios based on a client's risk profile.  
+2. An **algorithmic trading strategy**, implemented and backtested on historical data, with performance metrics used to evaluate real-world viability.
 
 ---
 
-## 💻 Tools Used
-- Python 3
-- Jupyter Notebook
+## Contents
+
+- `FIN5016_Assessment_2_Task_1.ipynb` : Jupyter Notebook for Robo-Advising (Efficient Frontier & Portfolio Recommendation)
+- `FIN5016_Assessment_2_Task_2.ipynb` : Jupyter Notebook for Algorithmic Trading Strategy and Performance Analysis
+
+---
+
+## Key Steps Covered
+
+### 📊 Robo-Advising
+- **Data Collection**: Pulling 2 years of historical data using `yfinance`
+- **Portfolio Optimization**: Calculating expected returns, standard deviation, Sharpe ratio
+- **Efficient Frontier**: Visualizing risk-return combinations
+- **Recommendation**: Suggesting portfolio weights based on risk tolerance
+
+### 📈 Algorithmic Trading
+- **Strategy Logic**: Moving Average Crossover (or similar)
+- **Backtesting**: Entry/exit logic with performance tracking
+- **Performance Metrics**: Sharpe Ratio, Maximum Drawdown, Cumulative Returns
+- **Real-world Relevance**: Application in modern FinTech and trading environments
+
+---
+
+## Models & Tools Used
+
+- Python (Jupyter Notebooks)
 - `pandas`, `numpy`, `matplotlib`, `yfinance`
-- Performance metrics: Sharpe Ratio, Drawdown
+- Modern Portfolio Theory
+- Technical Indicators (SMA, EMA)
+- Performance Analysis: Sharpe Ratio, Drawdown, Returns
 
 ---
 
-## 📌 Notes
-- All code is written to be **error-free**, well-commented in Markdown, and reproducible.
-- The focus is on clarity, performance evaluation, and real-world relevance in FinTech.
+## Highlights
+
+- Generated portfolios along the Efficient Frontier
+- Provided custom portfolio suggestions for conservative, moderate, and aggressive investors
+- Algorithmic strategy tested with visual and metric-based evaluation
+- Focused on clarity, real-world relevance, and clean markdown explanations
 
 ---
 
-## 📬 Author
-**Joseph Clifford Kamau Muiruri**  
-Master of Financial Analysis (FinTech) – La Trobe University  
-[LinkedIn](https://www.linkedin.com) | [Email](mailto:cliffjoem@gmail.com)
+## Author
 
+Joseph Clifford Kamau Muiruri  
+FIN5016 – La Trobe University  
+May 2025
